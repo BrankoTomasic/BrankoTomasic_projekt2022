@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding:100px 0;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+form{
+    text-align:left;
+}
+label{
+    
+    font-weight: bold;
+}
+textarea{
+    width: 40%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit] {
+  
+    padding:12px 10px;
+
+}
+input[type=file]{
+    
+    width:30%;
+}
+select{
+   
+    padding:12px 10px;
+
+}
+@media (max-width:650px){
+    input[type=file]{
+    
+        display:block;
+        width:100%;
+    }
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+main h1{
+    padding: 50px 0;
+
+}
+main h3 {
+    padding-bottom: 40px;
+}
+@media  (max-width: 1020px){
+    main h1{
+       font-size: 4em;
+
+    }
+}
+@media  (max-width: 700px){
+    main h1{
+       font-size: 2.5em;
+    
+    }
+}
+@media  (max-width: 500px){
+    main h1{
+       font-size: 1.5em;
+       
+    }
+    .vidljivo{
+        display: block;
+        font-weight: bold;
+    }
+    #prvi{
+        display: none;
+    }
+    main h3{
+        font-size:1em;
+    }
+}
+.row{
+    padding:20px 0;
+}
+div a:hover{
+    text-decoration: none;
+}
+#prvi{
+   font-weight: bold;
+}
+@media  (min-width: 500px){
+   
+    .vidljivo{
+        display: none;
+        
+    }
+}
+  
